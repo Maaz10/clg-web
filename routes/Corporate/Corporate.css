@@ -1,0 +1,124 @@
+.trials{
+  justify-content: space-around;
+}
+
+@media screen and (min-width: 601px) {
+  div.trials {
+      display: flex;
+      flex-direction: row;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div.trials {
+      display:grid;
+  }
+}
+div.rectangle2
+{
+  margin-top: 85px;
+  background-color: #6A172F;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: auto;
+}
+
+
+@media screen and (min-width: 600px) {
+  div.rectangle2 {
+    height: 150px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div.rectangle2 {
+    height: 100px;
+  }
+}
+
+div.header1 {
+  color: White;
+  font-size: 500%;
+  font-family: "Times New Roman", Times, serif;
+}
+
+@media screen and (min-width: 601px) {
+  div.header1 {
+    font-size: 80px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div.header1 {
+    font-size: 50px;
+  }
+}
+
+.background1{
+    margin-top: 30px;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    background-color:black;
+}
+
+@media screen and (min-width: 601px) {
+  div.background1 {
+  height: 300px;
+      width: 85%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div.background1 {
+    height: 1450px ;
+        width: 75%;
+  }
+}
+
+.background2{
+
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+
+    background-color:black;
+
+}
+
+@media screen and (min-width: 601px) {
+  div.background2 {
+  height: 250px;
+      width: 85%;
+      margin-bottom: 250px;
+      margin-top: 200px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div.background2 {
+    height: 1450px ;
+        width: 75%;
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+}
+
+.cardx{
+  margin-top: 50px;
+  color: white;
+  background-color:  #6A172F;
+  border: 2px solid black;
+
+}
+
+.button{
+  color: white;
+  background-color: black;
+  border-radius: 10px;
+  font-size: 85%;
+
+}
